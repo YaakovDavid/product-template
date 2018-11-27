@@ -1,0 +1,24 @@
+.product-body{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.container{
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 4fr));
+  grid-auto-rows: 300px;
+}
+
+.product{
+  display: flex;
+  justify-content: center;
+  /* border: 1px solid black; */
+  margin: 5px;
+  /* box-shadow: 5px red; */
+  box-shadow: 1px 1px 1px 1px #cecbcb;
+}
+
+.product-img{
+  width: 100%;
+}
